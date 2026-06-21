@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "mniroy.instaremote.wear-debug-54:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "mniroy.instaremote.wear-main-56:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "mniroy.instaremote.wear-debug-54:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "mniroy.instaremote.wear-main-56:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/royyanwicaksono/.gradle/daemon/8.11.1/mniroy.instaremote.wear-debug-54:/layout_activity_main.xml.flat",
+        "source": "/Users/royyanwicaksono/.gradle/daemon/8.11.1/mniroy.instaremote.wear-main-56:/layout/activity_main.xml"
+    },
+    {
+        "merged": "mniroy.instaremote.wear-debug-54:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "mniroy.instaremote.wear-main-56:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "mniroy.instaremote.wear-debug-54:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "mniroy.instaremote.wear-main-56:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "mniroy.instaremote.wear-debug-54:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "mniroy.instaremote.wear-main-56:/mipmap-mdpi/ic_launcher.png"
+    }
+]

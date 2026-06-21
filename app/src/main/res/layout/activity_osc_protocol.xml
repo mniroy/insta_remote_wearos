@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingTop="44dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="24dp">
+
+        <TextView
+            android:id="@+id/tv_osc_tips"
+            style="@style/TextStyle.Main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            android:gravity="start"
+            android:lineHeight="20dp"
+            android:padding="6dp"
+            android:text="@string/osc_tips"
+            android:textColor="@color/red"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/btn_info"
+            style="@style/TextStyle.Main.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="/osc/info" />
+
+        <TextView
+            android:id="@+id/btn_state"
+            style="@style/TextStyle.Main.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="/osc/state" />
+
+        <TextView
+            android:id="@+id/btn_get_support_options"
+            style="@style/TextStyle.Main.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/osc_support_options" />
+
+        <TextView
+            android:id="@+id/btn_take_picture"
+            style="@style/TextStyle.Main.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/osc_take_picture" />
+
+        <TextView
+            android:id="@+id/btn_take_picture_device_stitching"
+            style="@style/TextStyle.Main.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/osc_take_picture_device_stitching" />
+
+        <TextView
+            android:id="@+id/btn_start_record"
+            style="@style/TextStyle.Main.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/osc_start_record" />
+
+        <TextView
+            android:id="@+id/btn_stop_record"
+            style="@style/TextStyle.Main.Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/osc_stop_record" />
+
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="6dp"
+            android:textColor="@color/black"
+            tools:text="osc info" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_separated_fisheye_stitch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical"
+            android:visibility="gone"
+            tools:visibility="visible">
+
+            <TextView
+                android:id="@+id/btn_get_exposure_params"
+                style="@style/TextStyle.Main.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/osc_get_exposure_params" />
+
+            <TextView
+                android:id="@+id/btn_switch_front_sensor_capture"
+                style="@style/TextStyle.Main.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/osc_switch_front_sensor_capture" />
+
+            <TextView
+                android:id="@+id/btn_switch_rear_sensor_capture"
+                style="@style/TextStyle.Main.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/osc_switch_rear_sensor_capture" />
+
+            <TextView
+                android:id="@+id/btn_separated_fisheye_stitch"
+                style="@style/TextStyle.Main.Button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                android:text="@string/osc_separated_fisheye_stitch" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/layout_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_exposure_params"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                tools:text="Exposure Params" />
+
+            <TextView
+                android:id="@+id/tv_fornt_path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                tools:text="front path" />
+
+            <TextView
+                android:id="@+id/tv_rear_path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                tools:text="rear path" />
+
+            <TextView
+                android:id="@+id/tv_stitch_path"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:textColor="@color/black"
+                tools:text="stitch path" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
